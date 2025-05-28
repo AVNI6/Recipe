@@ -1,0 +1,167 @@
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+#searchInput {
+  padding: 10px 15px;
+  width: 60%;
+  max-width: 500px;
+  margin: 1rem auto;
+  display: block;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Filter options */
+.filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.filters select {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+}
+
+/* Recipe Cards */
+#recipeContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #2c3e50;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 2rem;
+  width: 80%;
+  max-width: 800px;
+  border-radius: 20px;
+  position: relative;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+#closeModal {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-content h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.modal-content h3 {
+  margin-top: 1.5rem;
+  color: #34495e;
+}
+
+.modal-content ul,
+.modal-content ol {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.modal-content img {
+  border-radius: 12px;
+  margin-top: 1rem;
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+.modal-content ol {
+  margin-top: 0.5rem;
+  padding-left: 1.8rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+.modal-content ul {
+  margin-top: 0.5rem;
+  padding-left: 1.8rem;
+  color: #555;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
