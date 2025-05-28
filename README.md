@@ -1,6 +1,6 @@
-# 🥘 Gujarati Recipe Finder Web Application
+# 🥘 Recipe Finder Web Application
 
-A user-friendly web application to explore and learn traditional Gujarati recipes. Users can browse a variety of dishes, view step-by-step cooking instructions, see required ingredients, and search or filter recipes based on preparation time, dietary preferences (vegetarian/non-vegetarian), and course type (snack, main course, dessert).
+A user-friendly web application to explore and learn traditional recipes. Users can browse a variety of dishes, view step-by-step cooking instructions, see required ingredients, and search or filter recipes based on preparation time, dietary preferences (vegetarian/non-vegetarian), and course type (snack, main course, dessert).
 
 
 ## 🌟 Features
