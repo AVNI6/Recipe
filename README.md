@@ -37,3 +37,4 @@ https://dishrecipe.tiiny.site
 
 ![image](https://github.com/user-attachments/assets/18250fd4-bb05-4ee9-b94b-73b29d8c3eed)
 
+For any help regrading dataset or API, contact avaniradadia@gmail.com.
